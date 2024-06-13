@@ -1,14 +1,14 @@
-import SectionHeader from './components/molecules/SectionHeader';
+import SectionAboutMe from './components/molecules/SectionAboutMe';
 import GlobalStyles from './styles/GlobalStyles';
 
 function App() {
   return (
     <div className="min-h-screen bg-gray-100 flex flex-col items-center justify-center">
       <GlobalStyles />
-      <SectionHeader
+      <SectionAboutMe
         title="HelloWorld!"
         subtitle="This is a subtitle"
-        colorSubTitle="red"
+        paragraph="This is the paragraph section this is the paragraph section this is the paragraph section this is the paragraph section this is the paragraph section this is the paragraph section this is the paragraph section this is the paragraph section this is the paragraph section this is the paragraph section."
       />
     </div>
   );
