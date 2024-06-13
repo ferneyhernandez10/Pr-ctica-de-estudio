@@ -26,6 +26,7 @@ module.exports = {
   rules: {
     'react/react-in-jsx-scope': 0,
     'react/require-default-props': 'off',
+    'prettier/prettier': ['error', { endOfLine: 'auto' }],
     'react-refresh/only-export-components': [
       'warn',
       { allowConstantExport: true },
